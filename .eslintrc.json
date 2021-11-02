@@ -24,10 +24,10 @@
   },
   "plugins": ["react", "@typescript-eslint", "import"],
   "rules": {
-    "indent": ["error", 2],
+    "indent": ["warn", 2],
     "linebreak-style": ["error", "unix"],
-    "quotes": ["error", "single"],
-    "semi": ["error", "always"],
+    "quotes": ["warn", "single"],
+    "semi": ["warn", "always"],
     "import/prefer-default-export": 0,
     "react/jsx-props-no-spreading": 0,
     "react/react-in-jsx-scope": 0,
